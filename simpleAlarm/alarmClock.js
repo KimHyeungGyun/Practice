@@ -8,7 +8,7 @@ let startStop = document.getElementById("startStop");
 let currentTime;
 let alarmElement;
 let activeAlarm = false;
-let sound = new Audio("alarm.mp3");
+let sound = new Audio('alarm.mp3');
 sound.loop = true;
 
 function showTimes() {
